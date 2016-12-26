@@ -1,0 +1,33 @@
+<android.support.v7.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_top"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:theme="@style/AppTheme"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+
+    android:layout_marginRight="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlHardcoded">
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="@string/events"
+        android:id="@+id/toolbar_title"
+        />
+    <Button
+        android:id="@+id/add_BTN"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/add"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+</RelativeLayout>
+</android.support.v7.widget.Toolbar>
